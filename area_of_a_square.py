@@ -1,4 +1,3 @@
-side_length = input("Enter the side length of the square:")
-side_length = float(side_length)
+side_length = float(input("Enter the side length of the square:"))
 area = side_length**2
-print("The area of the square is", area)
+print("The area of the square is {0}" .format(area))
